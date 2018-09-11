@@ -3,8 +3,8 @@ A collection of short Python scripts I use.
 
 ## Working with PDFs
 
-- crop.py: Cropping files
-  -argrs:
+- __crop.py__: Cropping files
+  - args:
     - "-in": Input,file to crop name.
     - "-out": Output,cropped file name.
     - "-l": Left margin value (integer).
@@ -13,7 +13,7 @@ A collection of short Python scripts I use.
     - "-width": Width of the cropped file (integer).
   - Exple:
       python crop.py -in fileToCrop.pdf -out croppedFile.pdf -b 150 -l 150 -height 600 -width 450
-- extract.py:
-- multiExtract.py:
-- combine.py:
-- split.py:
+- __extract.py__:
+- __multiExtract.py__:
+- __combine.py__:
+- __split.py__:
